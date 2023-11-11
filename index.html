@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Wastage</title>
+    <style>
+        *{
+    margin-left: 2px;
+}
+body{
+    background-image:url();
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: white;
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding: 0;
+    /* background-color: blanchedalmond;  */
+    background-color: #DBD3D8;
+    /* background-image: url(background.jpg); */
+    background-size: 113%;
+    background-attachment: fixed;
+}
+    
+
+header{
+    
+    background-color: rgb(89, 85, 85);
+    color:black;
+    padding:2px;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:whitesmoke;
+    box-shadow: 0 0 10px rgba(239, 237, 237, 0);
+    border-radius: 5px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.slide {
+    display: none;
+}
+
+.active-slide {
+    display: block;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 20px;
+}
+
+blockquote{
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+nav{
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container{
+    background-color: white;
+}
+    </style>
+</head>
+<body>
+    <nav>
+    <ul class="nav-menu">
+            <li class="nav-item"><a onclick="scrollToSection('Under')">Understanding</a></li>
+            <li class="nav-item"><a onclick="scrollToSection('Causes')">Causes</a></li>
+            <li class="nav-item"><a onclick="scrollToSection('Impacts')"> Impacts</a></li>
+            <!-- <li class="nav-item"><a onclick="scrollToSection('ed')">Economic Dimension</a></li> -->
+            <li class="nav-item"><a onclick="scrollToSection('SI')">Solution and Initiatives</a></li>
+            <li class="nav-item"><a onclick="scrollToSection('contact')">Contact Us</a></li>
+        </ul>
+    </nav>
+
+        
+        <!-- <h1 id="home">Welcome to Our Website</h1>
+        <p></p> -->
+        
+    
+        <script>
+            function scrollToSection(sectionId) {
+                const element = document.getElementById(sectionId);
+                if (element) {
+                    element.scrollIntoView({ behavior: "smooth" });
+                }
+            }
+        </script>
+    <header>
+        <h1>Food Wastage Awareness</h1>
+    </header>
+    <div>
+        <div class="slide active-slide">
+            <h2>Introduction about Food Wastage</h2>
+            <p>Food wastage is a critical issue with far-reaching consequences for our society, economy, and the environment. Understanding the various aspects of food wastage is essential to address this problem effectively. Here's a comprehensive overview of food wastage. It encompasses the loss or disposal of food at various stages of the food supply chain, from production and processing to distribution and consumption. Understanding the causes and consequences of food wastage is essential for tackling this global challenge effectively.
+            </p>
+            <blockquote><img src="food 0.jpg" alt="" heigth="400"  width="400"></blockquote>
+
+        </div>
+       <br>
+        <div>
+            <h2 id="Under">1. Understanding Food Wastage</h2>
+            <p>Food wastage refers to the discard of edible food, often due to various reasons such as overproduction, spoilage, consumer behavior, or inefficiencies in the supply chain. It's a significant global issue with economic, environmental, and social consequences. Reducing food wastage involves better management at various levels, from farms to households, and can help conserve resources, reduce greenhouse gas emissions, and address food insecurity.</p>
+            <blockquote><img src="food1.jpeg" width="550" heigth="550"></blockquote>
+        </div>
+        <br>
+
+        <div id="Causes">
+            <h2>2. Causes of Food Wastage</h2>
+            <p>Food wastage results from a complex interplay of factors. It stems from overbuying and overproduction, often driven by consumer habits and business practices. Misinterpretation of expiration dates and improper storage contributes to discarded food. Plate waste, where consumers leave uneaten portions, is another cause. Food can also be lost during manufacturing and distribution processes. Additionally, consumers' preferences for aesthetically perfect produce, retail practices that discard "imperfect" items, bulk buying, and a lack of awareness about the consequences of food waste all play a role. Economic factors, where it may be cheaper to dispose of food rather than manage it properly, can further exacerbate the issue. Addressing these factors requires a multi-pronged approach to reduce food wastage.</p>
+            <blockquote><img src="food..........jpg" width="600" heigth="600"></blockquote>
+        </div>
+        <br>
+
+        <div id="Impacts">
+            <h2>3. Impacts of Food Wastage</h2>
+            <br><br>
+            <blockquote><img src="food.en.jpg" width="550" heigth="500"></blockquote>
+            <br>
+            <h3><li>Environmental Impact</li></h3>
+            <p>Food wastage has a significant and multifaceted environmental impact. It contributes to the depletion of finite natural resources such as water, arable land, and energy used in food production and transportation. When food ends up in landfills, it generates methane, a potent greenhouse gas that accelerates climate change. Additionally, the energy, emissions, and resources invested in growing, processing, and transporting wasted food go to waste, exacerbating the carbon footprint of the food supply chain. Food wastage not only squanders resources but also intensifies global environmental challenges, including habitat destruction, biodiversity loss, and soil degradation. Reducing food wastage is crucial for mitigating these adverse environmental effects and promoting sustainability</p>
+            <blockquote><img src="" width="550" heigth="500"></blockquote>
+        </div>
+
+        <div id="ed">
+            <h3><li>Economic Impact</li></h3>
+            <p>At the consumer level, throwing away food represents a direct loss of money for households as they discard uneaten groceries. For businesses in the food supply chain, such as farmers, processors, and retailers, food wastage translates into lost revenue and increased production costs. Additionally, food waste contributes to higher disposal and waste management costs, as well as potential environmental harm from the disposal of organic waste. On a larger scale, the economic consequences extend to decreased food security and increased prices for food products as the inefficiencies in the supply chain inflate costs. By reducing food wastage, we can not only save money at the individual and business levels but also promote a more sustainable and efficient food system that benefits both the economy and the environment.</p>
+
+            <blockquote><img src="" width="500" heigth="500"></blockquote>
+        </div>
+
+        <div id="ed">
+            <h3><li>Social Impact</li></h3>
+            <p>Food waste is a significant social problem that affects people and the planet on a global scale. According to the Food and Agriculture Organization (FAO), approximately one-third of the food produced for human consumption is wasted globally, which is equal to about 1.3 billion tonnes per year. This is a staggering amount of food waste that has significant social, economic, and environmental consequences.The social problem of food waste is multifaceted, affecting people in different ways. It can lead to hunger and malnutrition in some parts of the world while contributing to the obesity epidemic in other parts.</p>
+            <blockquote><img src="" width="500" heigth="500"></blockquote>
+        </div>
+        
+        <div id="SI">
+            <h2>4. Solution and Initiatives</h2>
+            <p>There are several solutions and Initiatives to reduce food wastage at various levels of the food supply chain and in our own households:
+                <h4><li>Meal Planning:</li></h4> Plan your meals in advance and make a shopping list based on what you need. Stick to the list and avoid impulse purchases, which can lead to food waste.
+                <h4><li>Proper Storage:</li></h4> Store food properly to extend its shelf life. Use airtight containers, keep perishables in the refrigerator, and freeze items that won't be used immediately.First In, First Out (FIFO): When storing food, use the FIFO method. Consume the oldest items in your pantry or fridge before using newer ones to ensure nothing goes bad.
+                <h4><li>Understand Expiry Dates:</li></h4> Understand the difference between "use by," "best before," and "sell by" dates. "Use by" dates are more critical for safety, while "best before" dates refer to the quality of the product.
+                <h4><li>Creative Cooking:</li></h4> Get creative with recipes and use ingredients that are about to expire. Leftovers can be transformed into new dishes.
+                <h4><li>Composting:</li></h4> Composting organic food scraps can reduce the amount of waste sent to landfills and create nutrient-rich soil for gardening.
+                <h4><li>Support "Ugly" Produce:</li></h4> Embrace "ugly" or misshapen fruits and vegetables, as they are often just as good in taste and quality as their perfectly shaped counterparts.
+                <h4><li>Educate and Raise Awareness:</li></h4> Educate yourself and others about the consequences of food wastage to promote responsible consumption habits.
+                <h4><li>Reevaluate Shopping Habits:</li></h4> Be mindful of bulk purchases and sales that may lead to overbuying. Buy in smaller quantities, especially for items with a short shelf life.
+            </p>
+
+            <blockquote><img src="food 3.png" width="400" heigth="400"></blockquote>
+        </div>
+        <br>
+    </div>
+
+
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or want to get in touch, please fill out the contact form below.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            &copy; 2023 Food Wastage Awareness
+        </div>
+    </footer>
+    <br><br>
+</body>
